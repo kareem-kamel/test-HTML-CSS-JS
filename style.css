@@ -1,0 +1,155 @@
+body {
+    background-image: linear-gradient(to right, rgb(1, 48, 135) , rgb(0, 204, 255));
+
+
+}
+
+.box {
+    background-color: #d9f0fe;
+    position: absolute;
+    width: 65%;
+    height: 85%;
+    top: 7.5%;
+    left: 17.5%;
+    border-radius: 20px;
+
+
+}
+
+.box-right {
+    background-color: #ffffff;
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    left: 45%;
+    border-radius: 40px 20px 20px 40px;
+}
+
+.box-right .creat {
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    top: 8%;
+    left: 6%;
+
+}
+
+
+
+.facbook {
+   
+    left: 7%;
+}
+
+.google {
+   
+    left: 55%;
+}
+
+.box-right .google,
+.box-right .facbook {
+    border: #c9c9c9 2px solid;
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    position: absolute;
+    top: 20%;
+    cursor:pointer;
+}
+
+.box-right .google span,
+.box-right .facbook span {
+    color: #7e7e7e;
+    
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.box-right .google img,
+.box-right .facbook img {
+   width: 35px;
+   height: 35px;
+    vertical-align: middle;
+}
+
+.box-right .OR {
+    color: #c9c9c9;
+    text-transform: inherit;
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    
+}
+#err{
+    position:absolute;
+    top:37% ;
+    left: 10%;
+    text-indent: 4px;
+    height: fit-content;
+    width: fit-content;
+    padding-right: 4px;
+    border-radius: 20px;
+    background-color: #f1dbdb;
+    color: red;
+    font-family: sans-serif; 
+    text-align:center;
+}
+.box-right form {
+    position: absolute;
+    top: 44%;
+    left: 10%;
+
+}
+
+form input {
+    width: 440px;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    border: none;
+    border-bottom: #c9c9c9 2px solid;
+}
+form button{
+    background-color:rgb(0, 106, 255) ;
+    color: #ffffff;
+    width: 440px;
+    padding: 10px;
+    font-size: larger;
+    font-style: bold;
+    margin-top: 10px;
+    border:none;
+    border-radius: 20px;
+    text-transform: capitalize;
+    position:absolute;
+    left: 2%;
+}
+form button:hover{
+    background-color:rgb(0, 61, 244);
+}
+
+#dr{
+    width: 40%;
+    position: absolute;
+    bottom: 3%;
+    left: 4%;
+}
+#den{
+    width: 30px;
+    position: absolute;
+    margin: 3px;
+}
+#tx{
+    
+    color:rgb(1, 48, 135);
+    font-size:large;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    white-space: pre-line;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+
+}
